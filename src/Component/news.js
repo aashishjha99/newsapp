@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import newsitem from "./newsitem";
 
 export class news extends Component {
   render() {
