@@ -4,7 +4,7 @@ export class Nav extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
               News Monk
@@ -36,6 +36,20 @@ export class Nav extends Component {
                   </a>
                 </li>
               </ul>
+              <div className="form-check form-switch text-light ">
+                <input
+                  className="form-check-input my-3 "
+                  type="checkbox"
+                  role="switch"
+                  id="flexSwitchCheckDefault"
+                />
+                <label
+                  className="form-check-label my-2"
+                  htmlFor="flexSwitchCheckDefault"
+                >
+                  Enable Dark Mode
+                </label>
+              </div>
             </div>
           </div>
         </nav>
