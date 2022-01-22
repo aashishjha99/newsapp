@@ -1,0 +1,24 @@
+<Route path="/entertainment">
+              <Newss pageSize={5} country="in" category="technology" />
+            </Route>
+<Route path="/business">
+              <Newss pageSize={5} country="in" category="technology" />
+            </Route>
+<Route path="/general">
+              <Newss pageSize={5} country="in" category="technology" />
+            </Route>
+<Route path="/healthscience">
+              <Newss pageSize={5} country="in" category="technology" />
+            </Route>
+<Route path="/sports">
+              <Newss pageSize={5} country="in" category="technology" />
+            </Route>
+<Route path="/technology">
+              <Newss pageSize={5} country="in" category="technology" />
+            </Route>
+
+
+
+ <Route path="/about">
+              <Newss pageSize={5} country="in" category="technology" />{" "}
+            </Route>
